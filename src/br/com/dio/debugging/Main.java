@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Iniciou do programa no método main.");
         a();
-        System.out.println("Finalizou do programa no método main.");
+        System.out.println("Finalizou o programa no método main.");
     }
 
     public static void a() {
@@ -23,7 +23,8 @@ public class Main {
 
     public static void c(){
         System.out.println("Entrou no método c.");
-        //Thread.dumpStack();
+        //Thread.dumpStack() é so para debuggar moes, usar com certeza
+        Thread.dumpStack();
         System.out.println("Finalizou o método c.");
     }
 }
